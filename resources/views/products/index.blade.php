@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 6 CRUD Example from scratch - ItSolutionStuff.com</h2>
+                <h2>Crafttary Handmade Products</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
@@ -21,14 +21,22 @@
     <table class="table table-bordered">
         <tr>
             <th>No</th>
+            <th>Id</th>
             <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Weight</th>
             <th>Details</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($products as $product)
         <tr>
             <td>{{ ++$i }}</td>
+            <td>{{ $product->id }}</td>
             <td>{{ $product->name }}</td>
+            <td>{{ $product->category }}</td>
+            <td>{{ $product->price }}</td>
+            <td>{{ $product->weight }}</td>
             <td>{{ $product->detail }}</td>
             <td>
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">

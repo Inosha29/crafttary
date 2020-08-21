@@ -27,10 +27,34 @@
     @csrf
   
      <div class="row">
+     <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Id:</strong>
+                <input type="text" name="id" class="form-control" placeholder="Id">
+            </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
                 <input type="text" name="name" class="form-control" placeholder="Name">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Category:</strong>
+                <input type="text" name="category" class="form-control" placeholder="Category">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Price:</strong>
+                <input type="text" name="price" class="form-control" placeholder="Price">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Weight:</strong>
+                <input type="text" name="weight" class="form-control" placeholder="Weight">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

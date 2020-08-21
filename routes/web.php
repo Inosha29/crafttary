@@ -58,7 +58,7 @@ Route::get('/icons', function () {
 Route::get('/inbox', function () {
     return view('admin.inbox');
 });
-Route::get('/inbox_deatails', function () {
+Route::get('/inbox-details', function () {
     return view('admin.inbox_details');
 });
 Route::get('/login', function () {
