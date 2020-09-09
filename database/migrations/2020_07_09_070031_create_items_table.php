@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AdminTable extends Migration
+class CreateItemsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,14 @@ class AdminTable extends Migration
      */
     public function up()
     {
-        Schema::create('admin', function (Blueprint $table) {
-            $table->id('admin_id');
+        Schema::create('items', function (Blueprint $table) {
+            $table->id();
             $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('unit price');
+            $table->string('available quantity');
+            $table->string('restock level');
             $table->timestamps();
         });
-        //
     }
 
     /**
@@ -32,7 +30,6 @@ class AdminTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('admin');
-        //
+        Schema::dropIfExists('items');
     }
 }
