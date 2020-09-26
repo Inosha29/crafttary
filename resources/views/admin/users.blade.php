@@ -1,3 +1,4 @@
+
 <!--Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -6,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Icons :: w3layouts</title>
+<title>crafttary</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -23,7 +24,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
-<!--//skycons-icons-->
+<!--button css-->
+<link href="{{asset('admin/Assets/css/demo-page.css')}}" rel="stylesheet" media="all">
+<link href="{{asset('admin/Assets/css/hover.css')}}" rel="stylesheet" media="all">
+<!--//but-->
 </head>
 <body>	
 <div class="page-container">	
@@ -33,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a href="dashboard"> <h1>Shoppy</h1> 
+									 <a href="dashboard"> <h1>Crafttary</h1> 
 									<!--<img id="logo" src="" alt="Logo"/>--> 
 								  </a> 								
 							</div>
@@ -227,77 +231,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 		<!-- /script-for sticky-nav -->
 <!--inner block start here-->
-<div class="inner-block">
-   <div class="boost-icons">
-   	       <div class="boost-icons-head">
-				 <h2>Icons </h2>
-		  </div>
-		  <div class="boost-icons-bottom">
-				<div class="boost-icons-list">
-					<ul>
-						<li><i class="glyphicon glyphicon-home" aria-hidden="true"></i> glyphicon-home</li>
-						<li><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i> glyphicon-asterisk</li>
-						<li><i class="glyphicon glyphicon-plus" aria-hidden="true"></i> glyphicon-plus</li>
-						<li><i class="glyphicon glyphicon-euro" aria-hidden="true"></i> glyphicon-euro</li>
-						<li><i class="glyphicon glyphicon-eur" aria-hidden="true"></i> glyphicon-eur</li>
-						<li><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> glyphicon-minus</li>
-						<li><i class="glyphicon glyphicon-cloud" aria-hidden="true"></i> glyphicon-cloud</li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> glyphicon-envelope</li>
-						<li><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i> glyphicon-pencil</li>
-						<li><i class="glyphicon glyphicon-glass" aria-hidden="true"></i> glyphicon-glass</li>
-						<li><i class="glyphicon glyphicon-music" aria-hidden="true"></i> glyphicon-music</li>
-						<li><i class="glyphicon glyphicon-search" aria-hidden="true"></i> glyphicon-search</li>
-						<li><i class="glyphicon glyphicon-heart" aria-hidden="true"></i> glyphicon-heart</li>
-						<li><i class="glyphicon glyphicon-star" aria-hidden="true"></i> glyphicon-star</li>
-						<li><i class="glyphicon glyphicon-star-empty" aria-hidden="true"></i> glyphicon-star-empty</li>
-						<li><i class="glyphicon glyphicon-film" aria-hidden="true"></i> glyphicon-film</li>
-						<li><i class="glyphicon glyphicon-th-large" aria-hidden="true"></i> glyphicon-th-large</li>
-						<li><i class="glyphicon glyphicon-th-list" aria-hidden="true"></i> glyphicon-th-list</li>
-						<li><i class="glyphicon glyphicon-ok" aria-hidden="true"></i> glyphicon-ok</li>
-						<li><i class="glyphicon glyphicon-remove" aria-hidden="true"></i> glyphicon-remove</li>
-						<li><i class="glyphicon glyphicon-zoom-in" aria-hidden="true"></i> glyphicon-zoom-in</li>
-						<li><i class="glyphicon glyphicon-zoom-out" aria-hidden="true"></i> glyphicon-zoom-out</li>
-						<li><i class="glyphicon glyphicon-off" aria-hidden="true"></i> glyphicon-off</li>
-						<li><i class="glyphicon glyphicon-signal" aria-hidden="true"></i> glyphicon-signal</li>
-						<li><i class="glyphicon glyphicon-cog" aria-hidden="true"></i> glyphicon-cog</li>
-						<li><i class="glyphicon glyphicon-trash" aria-hidden="true"></i> glyphicon-trash</li>
-						<li><i class="glyphicon glyphicon-file" aria-hidden="true"></i> glyphicon-file</li>
-						<li><i class="glyphicon glyphicon-road" aria-hidden="true"></i> glyphicon-road</li>
-						<li><i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i> glyphicon-download-alt</li>
-						<li><i class="glyphicon glyphicon-download" aria-hidden="true"></i> glyphicon-download</li>
-						<li><i class="glyphicon glyphicon-upload" aria-hidden="true"></i> glyphicon-upload</li>
-						<li><i class="glyphicon glyphicon-inbox" aria-hidden="true"></i> glyphicon-inbox</li>
-						<li><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i> glyphicon-play-circle</li>
-						<li><i class="glyphicon glyphicon-repeat" aria-hidden="true"></i> glyphicon-repeat</li>
-						<li><i class="glyphicon glyphicon-refresh" aria-hidden="true"></i> glyphicon-refresh</li>
-						<li><i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i> glyphicon-list-alt</li>
-						<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i> glyphicon-lock</li>
-						<li><i class="glyphicon glyphicon-flag" aria-hidden="true"></i> glyphicon-flag</li>
-						<li><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> glyphicon-headphones</li>
-						<li><i class="glyphicon glyphicon-volume-off" aria-hidden="true"></i> glyphicon-volume-off</li>
-						<li><i class="glyphicon glyphicon-trash" aria-hidden="true"></i> glyphicon-trash</li>
-						<li><i class="glyphicon glyphicon-file" aria-hidden="true"></i> glyphicon-file</li>
-						<li><i class="glyphicon glyphicon-road" aria-hidden="true"></i> glyphicon-road</li>
-						<li><i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i> glyphicon-download-alt</li>
-						<li><i class="glyphicon glyphicon-download" aria-hidden="true"></i> glyphicon-download</li>
-						<li><i class="glyphicon glyphicon-trash" aria-hidden="true"></i> glyphicon-trash</li>
-						<li><i class="glyphicon glyphicon-file" aria-hidden="true"></i> glyphicon-file</li>
-						<li><i class="glyphicon glyphicon-road" aria-hidden="true"></i> glyphicon-road</li>
-						<li><i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i> glyphicon-download-alt</li>
-						<li><i class="glyphicon glyphicon-download" aria-hidden="true"></i> glyphicon-download</li>
-					</ul>
-					<div class="clearfix"> </div>
-				</div>					
-		    </div>				
-     </div>
-</div>
+
 <!--inner block end here-->
 <!--copy rights start here-->
 <div class="copyrights">
 	 <p>© 2016 Shoppy. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div>	
 <!--COPY rights end here-->
-</div>
 </div>
 <!--slider menu-->
     <div class="sidebar-menu">
@@ -307,20 +247,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="menu">
 		      <ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="#"><i class="fa fa-cogs"></i><span>Components</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul>
-		            <li><a href="grids">Grids</a></li>
-		            <li><a href="portlet">Portlets</a></li>		            
-		          </ul>
-		        </li>
-		        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-book nav_icon"></i><span>Element</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul id="menu-comunicacao-sub" >
-		            <li id="menu-mensagens" style="width: 120px" ><a href="buttons">Buttons</a>		              
-		            </li>
-		            <li id="menu-arquivos" ><a href="typography">Typography</a></li>
-		             <li id="menu-arquivos" ><a href="icons">Icons</a></li>
-		          </ul>
-		        </li>
+		        <li><a href="users"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                 </li>
+		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		          </li>
 		          <li><a href="maps"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          <ul id="menu-academico-sub" >
@@ -329,7 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          </ul>
 		        </li>
 		        
-		        <li><a href="charts"><i class="fa fa-bar-chart"></i><span>Charts</span></a></li>
+		        <li><a href="Payments"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
@@ -344,7 +274,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		         </li>
 		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="product">Product</a></li>
+			            <li id="menu-academico-avaliacoes" ><a href="items">Product</a></li>
 			            <li id="menu-academico-boletim" ><a href="price">Price</a></li>
 		             </ul>
 		         </li>
@@ -380,4 +310,4 @@ $(".sidebar-icon").click(function() {
 <script src="{{asset('admin/Assets/js/bootstrap.js')}}"> </script>
 <!-- mother grid end here-->
 </body>
-</html>
+</html>                    

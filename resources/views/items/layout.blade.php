@@ -306,7 +306,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--inner block start here-->
 <div class="inner-block">
 <!--market updates updates-->
-	 <div class="market-updates">
+	 <!-- <div class="market-updates">
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-1">
 					<div class="col-md-8 market-update-left">
@@ -346,11 +346,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <div class="clearfix"> </div>
 				</div>
 			</div>
-		   <div class="clearfix"> </div>
+		   <div class="clearfix"> </div> -->
+           <div class="container">
+    @yield('content')
+</div>
 		</div>
 <!--market updates end here-->
 <!--mainpage chit-chating-->
-<div class="chit-chat-layer1">
+<!--<div class="chit-chat-layer1">
 	<div class="col-md-6 chit-chat-layer1-left">
                <div class="work-progres">
                             <div class="chit-chat-heading">
@@ -514,7 +517,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="main-page-charts">
    <div class="main-page-chart-layer1">
 		<div class="col-md-6 chart-layer1-left"> 
-			<div class="glocy-chart">
+			<!--<div class="glocy-chart">
 			<div class="span-2c">  
                         <h3 class="tlt">Sales Analytics</h3>
                         <canvas id="bar" height="300" width="400" style="width: 400px; height: 300px;"></canvas>
@@ -569,9 +572,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="chart-layer-2">
 	
 	<div class="col-md-6 chart-layer2-right">
-			<div class="prograc-blocks">
+			<!--<div class="prograc-blocks">
 		     <!--Progress bars-->
-	        <div class="home-progres-main">
+	        <!--<div class="home-progres-main">
 	           <h3>Total Sales</h3>
 	         </div>
 	        <div class='bar_group'>
@@ -586,7 +589,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	      </div>
 	</div>
 	<div class="col-md-6 chart-layer2-left">
-		<div class="content-main revenue">			
+		<!--<div class="content-main revenue">			
 					<h3>Total Revenue</h3>
 					<canvas id="radar" height="300" width="300" style="width: 300px; height: 300px;"></canvas>
 						<script>
@@ -614,11 +617,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</script>
 		</div>
 	</div>
-  <div class="clearfix"> </div>
+  <!--<div class="clearfix"> </div>
 </div>
 
 <!--climate start here-->
-<div class="climate">
+<!--<div class="climate">
 	<div class="col-md-4 climate-grids">
 		<div class="climate-grid1">
 			<div class="climate-gd1-top">
@@ -768,11 +771,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--climate end here-->
 </div>
 <!--inner block end here-->
-<!--copy rights start here-->
-<div class="copyrights">
-	 <p>© 2016 Shoppy. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-</div>	
-<!--COPY rights end here-->
+
 </div>
 </div>
 <!--slider menu-->
@@ -783,7 +782,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="menu">
 			<ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="users"><i class="fa fa-user"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li><a href="users"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
                  </li>
 		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          </li>
@@ -795,7 +794,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          </ul>
 		        </li>
 		        
-		        <li><a href="Payments"><i class="fa fa-money"></i><span>Payments</span></a></li>
+		        <li><a href="Payments"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
@@ -847,3 +846,5 @@ $(".sidebar-icon").click(function() {
 <!-- mother grid end here-->
 </body>
 </html>                     
+  
+

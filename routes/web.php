@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/admin', function () {
-    return view('admin');
+Route::get('/crafttary', function () {
+    return view('crafttary');
 });
 Route::get('/cart', function () {
     return view('cart');
@@ -73,7 +73,7 @@ Route::get('/portlet', function () {
 Route::get('/price', function () {
     return view('admin.price');
 });
-Route::get('/product', function () {
+Route::get('/items', function () {
     return view('admin.product');
 });
 Route::get('/signup', function () {
@@ -82,4 +82,4 @@ Route::get('/signup', function () {
 Route::get('/typography', function () {
     return view('admin.typography');
 });
-Route::resource('products','ProductController');
+Route::resource('items','ItemController');

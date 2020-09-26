@@ -1,4 +1,3 @@
-
 <!--Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -7,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Charts :: w3layouts</title>
+<title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Grids :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -24,9 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
-<!--static chart-->
-<script src="{{asset('admin/Assets/js/Chart.min.js')}}"></script>
-<!--//charts-->
+<!--//skycons-icons-->
 </head>
 <body>	
 <div class="page-container">	
@@ -36,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a href="dashboard"> <h1>Shoppy</h1> 
+									 <a href="dashboard"> <h1>Crafttary</h1> 
 									<!--<img id="logo" src="" alt="Logo"/>--> 
 								  </a> 								
 							</div>
@@ -231,131 +228,167 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- /script-for sticky-nav -->
 <!--inner block start here-->
 <div class="inner-block">
-    <div class="chart-main-block">
-       <div class="chart-first-line">
-    	<div class="col-md-6 chart-blo-1">
-    	   <div class="dygno">
-    		     <h2>Doughnut</h2>
-				
-				    <canvas id="doughnut" height="300" width="470" style="width: 470px; height: 300px;"></canvas>
-								<script>
-									var doughnutData = [
-									{
-										value: 30,
-										color:"#337AB7"
-									},
-									{
-										value : 50,
-										color : "#929292"
-									},
-									{
-										value : 100,
-										color : "#FC8213"
-									},
-									{
-										value : 40,
-										color : "#68AE00"
-									},
-									];
-									new Chart(document.getElementById("doughnut").getContext("2d")).Doughnut(doughnutData);
-								</script>
-			</div>	
-    	 </div>
-    	<div class="col-md-6 chart-blo-1">
-    	    <div class="line-chart">
-    		<h3>Line Chart</h3>
-    		 <canvas id="line" height="300" width="400" style="width: 400px; height: 300px;"> </canvas>
-                    <script>
-                        var lineChartData = {
-						labels : ["","","","","","",""],
-						datasets : [
-							{
-								fillColor : "rgba(252, 130, 19, 0.74)",
-								strokeColor : "#FC8213",
-								pointColor : "#FC8213",
-								pointStrokeColor : "#fff",
-								data : [65,59,90,81,56,55,40]
-							},
-							{
-								fillColor : "rgba(51, 122, 183, 0.71)",
-								strokeColor : "#337AB7",
-								pointColor : "#337AB7",
-								pointStrokeColor : "#fff",
-								data : [28,48,40,19,96,27,100]
-							}
-						]
-						
-					};
-                       new Chart(document.getElementById("line").getContext("2d")).Line(lineChartData);
+    <div class="cols-grids panel-widget">
+    	<h2>Grids</h2>
+		<div class="chute chute-center text-center">
+				<div class="row mb40">
+					<div class="col-md-12">
+						<div class="demo-grid">
+							<code>.col-md-12</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-6">
+						<div class="demo-grid">
+							<code>.col-md-6</code>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="demo-grid">
+							<code>.col-md-6</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-4">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+				</div>
 
-                    </script>
-    	    </div>
-    	  </div>
-    	  <div class="clearfix"> </div>
-    	</div>
-    	<div class="chart-second-line">
-    	<div class="col-md-6 chart-blo-1">
-    	    <div class="polararea">
-    		<h3>Polar Chart</h3>
-    		<canvas id="polarArea" height="300" width="300" style="width: 300px; height: 300px;"></canvas>
-				<script>
-					var chartData = [
-						{
-							value : Math.random(),
-							color: "#FC8213"
-						},
-						{
-							value : Math.random(),
-							color: "#68AE00"
-						},
-						{
-							value : Math.random(),
-							color: "#337AB7"
-						},
-						{
-							value : Math.random(),
-							color: "#FC8213"
-						},
-						{
-							value : Math.random(),
-							color: "#68AE00"
-						},
-						{
-							value : Math.random(),
-							color: "#337AB7"
-						}
-					];
-					new Chart(document.getElementById("polarArea").getContext("2d")).PolarArea(chartData);
-				</script>   
-			</div> 		
-    	  </div>   	
-    	<div class="col-md-6 chart-blo-1">
-    		<div class="chart-other">
-	    		<h3>Pie</h3> 		
-				<canvas id="pie" height="315" width="470" style="width: 470px; height: 315px;"></canvas>
-								<script>
-									var pieData = [
-										{
-											value: 30,
-											color:"#337AB7"
-										},
-										{
-											value : 50,
-											color : "#FC8213"
-										},
-										{
-											value : 100,
-											color : "#8BC34A"
-										}
-									
-									];
-									new Chart(document.getElementById("pie").getContext("2d")).Pie(pieData);
-								</script>
-            </div>
-    	</div>
-    	<div class="clearfix"> </div>
-    	</div>
-    </div>
+				<div class="row mb40">
+					<div class="col-md-8 mb5">
+						<div class="demo-grid">
+							<code>.col-md-8</code>
+						</div>
+					</div>
+					<div class="col-md-4 mb5">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+					<div class="col-md-3 mb5">
+						<div class="demo-grid">
+							<code>.col-md-3</code>
+						</div>
+					</div>
+					<div class="col-md-6 mb5">
+						<div class="demo-grid">
+							<code>.col-md-6</code>
+						</div>
+					</div>
+				</div>
+				<div class="row mb40">
+					<div class="col-md-8 mb5">
+						<div class="demo-grid">
+							<code>.col-md-8</code>
+						</div>
+					</div>
+					<div class="col-md-4 mb5">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+
+				</div>
+				<div class="row mb40">
+					<div class="col-md-4">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="demo-grid">
+							<code>.col-md-2</code>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="demo-grid">
+							<code>.col-md-4</code>
+						</div>
+					</div>
+				</div>
+		  </div>
+	 </div>	
+</div>
 </div>
 <!--inner block end here-->
 <!--copy rights start here-->
@@ -364,29 +397,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>	
 <!--COPY rights end here-->
 </div>
-</div>
 <!--slider menu-->
     <div class="sidebar-menu">
 		  	<div class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo" ></span> 
 			      <!--<img id="logo" src="" alt="Logo"/>--> 
 			  </a> </div>		  
 		    <div class="menu">
-		      <ul id="menu" >
+			<ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="#"><i class="fa fa-cogs"></i><span>Components</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul>
-		            <li><a href="grids">Grids</a></li>
-		            <li><a href="portlet">Portlets</a></li>		            
-		          </ul>
-		        </li>
-		        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-book nav_icon"></i><span>Element</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul id="menu-comunicacao-sub" >
-		            <li id="menu-mensagens" style="width: 120px" ><a href="buttons">Buttons</a>		              
-		            </li>
-		            <li id="menu-arquivos" ><a href="typography">Typography</a></li>
-		             <li id="menu-arquivos" ><a href="icons">Icons</a></li>
-		          </ul>
-		        </li>
+		        <li><a href="users"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                 </li>
+		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		          </li>
 		          <li><a href="maps"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          <ul id="menu-academico-sub" >
@@ -395,7 +417,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          </ul>
 		        </li>
 		        
-		        <li><a href="charts"><i class="fa fa-bar-chart"></i><span>Charts</span></a></li>
+		        <li><a href="Payments"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
@@ -410,7 +432,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		         </li>
 		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="product">Product</a></li>
+			            <li id="menu-academico-avaliacoes" ><a href="items">Product</a></li>
 			            <li id="menu-academico-boletim" ><a href="price">Price</a></li>
 		             </ul>
 		         </li>
@@ -446,4 +468,4 @@ $(".sidebar-icon").click(function() {
 <script src="{{asset('admin/Assets/js/bootstrap.js')}}"> </script>
 <!-- mother grid end here-->
 </body>
-</html>					
+</html>

@@ -48,7 +48,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="admin"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="crafttary"><img src="img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -64,12 +64,12 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-                <a href="admin"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="crafttary"><img src="img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Amado Nav -->
             <nav class="amado-nav">
                 <ul>
-                    <li class="active"><a href="admin">Home</a></li>
+                    <li class="active"><a href="crafttary">Home</a></li>
                     <li><a href="shop">Shop</a></li>
                     <li><a href="product-details">Product</a></li>
                     <li><a href="cart">Cart</a></li>
@@ -257,7 +257,7 @@
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="admin"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="crafttary"><img src="img/core-img/logo2.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -275,7 +275,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <div class="collapse navbar-collapse" id="footerNavContent">
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="admin">Home</a>
+                                            <a class="nav-link" href="crafttary">Home</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="shop">Shop</a>

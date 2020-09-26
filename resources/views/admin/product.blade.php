@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Product :: w3layouts</title>
+<title>Products</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a href="dashboard"> <h1>Shoppy</h1> 
+									 <a href="dashboard"> <h1>Crafttary</h1> 
 									<!--<img id="logo" src="" alt="Logo"/>--> 
 								  </a> 								
 							</div>
@@ -227,158 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 <!-- /script-for sticky-nav -->
 <!--inner block start here-->
-<div class="inner-block">
-    <div class="product-block">
-    	<div class="pro-head">
-    		<h2>Products</h2>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		    <div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro1.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro1.jpg" alt="">
-					</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>256 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		   <div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro2.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro2.jpg" alt="">
-					</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>156 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro3.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro3.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>500 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		  <div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro4.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro4.jpg" alt="">
-					</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>188 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		 <div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro5.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro5.jpg" alt="">
-					</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>220 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		  <div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro6.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro6.jpg" alt="">
-					</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>160 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro7.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro7.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>350 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro8.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro8.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>500 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro9.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro9.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>256 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro10.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro10.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>548 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro3.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro3.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>390 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="col-md-3 product-grid">
-    		<div class="product-items">
-	    		<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="admin/Assets/images/pro12.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"><span class="rollover1"> </span> </a></p></div>     
-							<img class="img-responsive" src="admin/Assets/images/pro12.jpg" alt="">
-				</div>
-	    		<div class="produ-cost">
-	    			<h4>Temporibus autem</h4>
-	    			<h5>150 $</h5>
-	    		</div>
-    		</div>
-    	</div>
-      <div class="clearfix"> </div>
-    </div>
-</div>
+
 <!--inner block end here-->
 <link rel="stylesheet" type="text/css" href="{{asset('admin/Assets/css/magnific-popup.css')}}">
 			<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
@@ -401,22 +250,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			      <!--<img id="logo" src="" alt="Logo"/>--> 
 			  </a> </div>		  
 		    <div class="menu">
-		      <ul id="menu" >
+			<ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="#"><i class="fa fa-cogs"></i><span>Components</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul>
-		            <li><a href="grids">Grids</a></li>
-		            <li><a href="portlet">Portlets</a></li>		            
-		          </ul>
-		        </li>
-		        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-book nav_icon"></i><span>Element</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul id="menu-comunicacao-sub" >
-		            <li id="menu-mensagens" style="width: 120px" ><a href="buttons">Buttons</a>		              
-		            </li>
-		            <li id="menu-arquivos" ><a href="typography">Typography</a></li>
-		             <li id="menu-arquivos" ><a href="icons">Icons</a></li>
-		          </ul>
-		        </li>
+		        <li><a href="users"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                 </li>
+		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		          </li>
 		          <li><a href="maps"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          <ul id="menu-academico-sub" >
@@ -425,7 +264,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          </ul>
 		        </li>
 		        
-		        <li><a href="charts"><i class="fa fa-bar-chart"></i><span>Charts</span></a></li>
+		        <li><a href="Payments"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
@@ -440,7 +279,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		         </li>
 		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="product">Product</a></li>
+			            <li id="menu-academico-avaliacoes" ><a href="items">Product</a></li>
 			            <li id="menu-academico-boletim" ><a href="price">Price</a></li>
 		             </ul>
 		         </li>
