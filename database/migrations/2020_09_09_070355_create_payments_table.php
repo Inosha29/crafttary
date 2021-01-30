@@ -19,7 +19,7 @@ class CreatePaymentsTable extends Migration
         
             $table->string('payment_status');
             $table->timestamps();
-
+            $table->string('payment_mode');
             $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
         });
     }
