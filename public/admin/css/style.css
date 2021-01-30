@@ -129,7 +129,7 @@ a:hover {
   width: 220px;
   top: 0px;
   left:0px;
-  bottom: 0;
+  bottom: 1;
   background-color:#202121;
   color: #aaabae;
   z-index: 999;

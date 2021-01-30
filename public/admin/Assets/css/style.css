@@ -215,7 +215,7 @@ a:hover {
 }
 /*----*/
 .logo {
-  width:22%;
+  width:100% !important;
   box-sizing: border-box;
   position: absolute;
    top: 20px;
@@ -4715,4 +4715,5 @@ ul.dropdown-menu {
 .b_tooltip {
     padding: 4px 7px 7px 7px;
 }
+
 }

@@ -16,12 +16,16 @@ class CreateOrdersTable extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id');
-            $table->integer('discount');
-            $table->decimal('subtotal',13,2);
-            $table->decimal('total',13,2);
+            $table->string('address');
+            $table->string('phone_no');
+            $table->string('country');
+            $table->string('city');
+            $table->string('zipcode');
+            $table->string('orderStatus')->default('pending');
+            
             $table->timestamps();
 
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            //$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

@@ -30,11 +30,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="signup-page-main">
      <div class="signup-main">  	
     	 <div class="signup-head">
-				<h1>Sign Up</h1>
+				<h1>Crafftary</h1>
 			</div>
 			<div class="signup-block">
 				<form>
-					<input type="text" name="email" placeholder="Name" required="">
+					<!--<input type="text" name="email" placeholder="Name" required="">-->
 					<input type="text" name="email" placeholder="Email" required="">
 					<input type="password" name="password" class="lock" placeholder="Password">
 					<div class="forgot-top-grids">
@@ -42,18 +42,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul>
 								<li>
 									<input type="checkbox" id="brand1" value="">
-									<label for="brand1"><span></span>I agree to the terms</label>
+									<label for="brand1"><span></span>Forgot my Password</label>
+								</li>
+								<li>
+									<input type="checkbox" id="brand1" value="">
+									<label for="brand1"><span></span>Remember me</label>
 								</li>
 							</ul>
 						</div>
 						
 						<div class="clearfix"> </div>
 					</div>
-					<input type="submit" name="Sign In" value="Sign up">														
+					<input type="submit" name="Sign Up" value="Login">														
 				</form>
 				<div class="sign-down">
-				<h4>Already have an account? <a href="login"> Login here.</a></h4>
-				  <h5><a href="dashboard">Go Back to Home</a></h5>
+				<h4> <a href="login"> Login here.</a></h4>
+				  <!--<h5><a href="dashboard">Go Back to Home</a></h5>-->
 				</div>
 			</div>
     </div>

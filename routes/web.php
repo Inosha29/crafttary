@@ -17,22 +17,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/crafttary', function () {
-    return view('crafttary');
+    return view('customer.crafttary');
 });
 Route::get('/cart', function () {
-    return view('cart');
+    return view('customer.cart');
 });
 Route::get('/checkout', function () {
-    return view('checkout');
+    return view('customer.checkout');
 });
 Route::get('/product-details', function () {
-    return view('product-details');
+    return view('customer.product-details');
 });
 Route::get('/shop', function () {
-    return view('shop');
+    return view('customer.shop');
 });
 Route::get('/home', function () {
-    return view('home');
+    return view('customer.home');
 });
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
@@ -43,8 +43,8 @@ Route::get('/404', function () {
 Route::get('/blank', function () {
     return view('admin.blank');
 });
-Route::get('/buttons', function () {
-    return view('admin.buttons');
+Route::get('/user', function () {
+    return view('admin.user');
 });
 Route::get('/charts', function () {
     return view('admin.charts');
@@ -67,8 +67,8 @@ Route::get('/login', function () {
 Route::get('/maps', function () {
     return view('admin.maps');
 });
-Route::get('/portlet', function () {
-    return view('admin.portlet');
+Route::get('/payment', function () {
+    return view('admin.payment');
 });
 Route::get('/price', function () {
     return view('admin.price');
@@ -76,10 +76,17 @@ Route::get('/price', function () {
 Route::get('/items', function () {
     return view('admin.product');
 });
+Route::get('/orders', function () {
+    return view('admin.order');
+});
 Route::get('/signup', function () {
     return view('admin.signup');
 });
 Route::get('/typography', function () {
     return view('admin.typography');
 });
-Route::resource('items','ItemController');
+Route::resource('admin.items','ItemController');
+Route::resource('admin.orders','OrderController');
+Auth::routes();
+
+//Route::get('/home', 'HomeController@index')->name('home');

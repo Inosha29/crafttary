@@ -7,10 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+@include('layouts.admin.meta')
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <link href="{{asset('admin/Assets/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all">
@@ -110,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a href="dashboard"> <h1>Crafttary</h1> 
+							<a href="crafttary"><img src="img/bg-img/16.png" alt=""></a>
 									<!--<img id="logo" src="" alt="Logo"/>--> 
 								  </a> 								
 							</div>
@@ -264,9 +261,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="dropdown profile_details_drop">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 											<div class="profile_img">	
-												<span class="prfil-img"><img src="admin/Assets/images/p1.png" alt=""> </span> 
+												<span class="prfil-img"><img src="admin/Assets/images/p7.png" alt=""> </span> 
 												<div class="user-name">
-													<p>Malorum</p>
+													<p>Sureshkumar</p>
 													<span>Administrator</span>
 												</div>
 												<i class="fa fa-angle-down lnr"></i>
@@ -310,12 +307,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-1">
 					<div class="col-md-8 market-update-left">
-						<h3>83</h3>
-						<h4>Registered User</h4>
-						<p>Other hand, we denounce</p>
+						<h3>7</h3>
+						<h4>Add Category</h4>
+						<p>Add something new</p>
 					</div>
 					<div class="col-md-4 market-update-right">
-						<i class="fa fa-file-text-o"> </i>
+						<i class=""> </i>
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -323,12 +320,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-2">
 				 <div class="col-md-8 market-update-left">
-					<h3>135</h3>
-					<h4>Daily Visitors</h4>
-					<p>Other hand, we denounce</p>
+					<h3>70</h3>
+					<h4>Add Products</h4>
+					<p>Add something new</p>
 				  </div>
 					<div class="col-md-4 market-update-right">
-						<i class="fa fa-eye"> </i>
+						<i class=""> </i>
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -336,12 +333,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-3">
 					<div class="col-md-8 market-update-left">
-						<h3>23</h3>
-						<h4>New Messages</h4>
-						<p>Other hand, we denounce</p>
+						<h3>5</h3>
+						<h4>View Orders</h4>
+						<p>Get ready to sell</p>
 					</div>
 					<div class="col-md-4 market-update-right">
-						<i class="fa fa-envelope-o"> </i>
+						<i class=""> </i>
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -350,7 +347,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 <!--market updates end here-->
 <!--mainpage chit-chating-->
-<div class="chit-chat-layer1">
+<!--<div class="chit-chat-layer1">
 	<div class="col-md-6 chit-chat-layer1-left">
                <div class="work-progres">
                             <div class="chit-chat-heading">
@@ -511,7 +508,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--main page chit chating end here-->
 <!--main page chart start here-->
-<div class="main-page-charts">
+<!--<div class="main-page-charts">
    <div class="main-page-chart-layer1">
 		<div class="col-md-6 chart-layer1-left"> 
 			<div class="glocy-chart">
@@ -566,12 +563,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </div>
  </div>
 <!--main page chart layer2-->
-<div class="chart-layer-2">
+<!--<div class="chart-layer-2">
 	
 	<div class="col-md-6 chart-layer2-right">
-			<div class="prograc-blocks">
+			<!<div class="prograc-blocks">
 		     <!--Progress bars-->
-	        <div class="home-progres-main">
+	        <!--<div class="home-progres-main">
 	           <h3>Total Sales</h3>
 	         </div>
 	        <div class='bar_group'>
@@ -582,10 +579,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    </div>
 				<script src="{{asset('admin/Assets/js/bars.js')}}"></script>
 
-	      <!--//Progress bars-->
+	     <!-- //Progress bars-->
 	      </div>
 	</div>
-	<div class="col-md-6 chart-layer2-left">
+	<!--<div class="col-md-6 chart-layer2-left">
 		<div class="content-main revenue">			
 					<h3>Total Revenue</h3>
 					<canvas id="radar" height="300" width="300" style="width: 300px; height: 300px;"></canvas>
@@ -618,7 +615,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 
 <!--climate start here-->
-<div class="climate">
+<!--<div class="climate">
 	<div class="col-md-4 climate-grids">
 		<div class="climate-grid1">
 			<div class="climate-gd1-top">
@@ -678,8 +675,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								  icons.play();
 							</script>
 						<h3>10c</h3>
-					</div>
-					<div class="col-md-4 cloudy1">
+					</div>-->
+					<!--<div class="col-md-4 cloudy1">
 						<h4>UK</h4>
 						<figure class="icons">
 					<canvas id="cloudy" width="58" height="58"></canvas>
@@ -770,7 +767,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--inner block end here-->
 <!--copy rights start here-->
 <div class="copyrights">
-	 <p>© 2016 Shoppy. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+	 <p>  <a href="crafttary" target="_blank">Go To Your Website</a> </p>
 </div>	
 <!--COPY rights end here-->
 </div>
@@ -783,40 +780,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="menu">
 			<ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="users"><i class="fa fa-user"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li><a href="user"><i class="fa fa-user"></i><span>Customers</span><span class="fa fa-angle-right" style="float: right"></span></a>
                  </li>
-		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li id="menu-comunicacao" ><a href="orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          </li>
-		          <li><a href="maps"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
+		          <li><a href="maps"><i class="fa fa-cog"></i><span>Settings</span></a></li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          <ul id="menu-academico-sub" >
 		          	 <li id="menu-academico-boletim" ><a href="login">Login</a></li>
 		            <li id="menu-academico-avaliacoes" ><a href="signup">Sign Up</a></li>		           
 		          </ul>
-		        </li>
-		        
-		        <li><a href="Payments"><i class="fa fa-money"></i><span>Payments</span></a></li>
+				</li>
+				
+		        <li><a href="payment"><i class="fa fa-money"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
 			            <li id="menu-academico-boletim" ><a href="inbox-details">Compose email</a></li>
 		             </ul>
 		        </li>
-		         <li><a href="#"><i class="fa fa-cog"></i><span>System</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>Category</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	 <ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="404">404</a></li>
-			            <li id="menu-academico-boletim" ><a href="blank">Blank</a></li>
+			            <li id="menu-academico-avaliacoes" ><a href="404">Add Category</a></li>
+			            <li id="menu-academico-boletim" ><a href="blank">List Category</a></li>
 		             </ul>
 		         </li>
-		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>Product</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="items">Product</a></li>
-			            <li id="menu-academico-boletim" ><a href="price">Price</a></li>
+			            <li id="menu-academico-avaliacoes" ><a href="items">Add Product</a></li>
+			            <li id="menu-academico-boletim" ><a href="price">List Product</a></li>
 		             </ul>
 		         </li>
 		      </ul>
 		    </div>
 	 </div>
+								</div>
 	<div class="clearfix"> </div>
 </div>
 <!--slide bar menu end here-->

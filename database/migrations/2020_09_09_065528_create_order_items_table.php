@@ -18,7 +18,7 @@ class CreateOrderItemsTable extends Migration
             $table->foreignId('order_id');
             $table->foreignId('item_id');
             $table->integer('quantity');
-            $table->integer('discount');
+        
             $table->decimal('subtotal',13,2);
             $table->decimal('total',13,2);
             $table->timestamps();

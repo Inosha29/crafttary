@@ -251,9 +251,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="menu">
 		      <ul id="menu" >
 			  <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="users"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li><a href="user"><i class="fa fa-cogs"></i><span>Users</span><span class="fa fa-angle-right" style="float: right"></span></a>
                  </li>
-		        <li id="menu-comunicacao" ><a href="Orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li id="menu-comunicacao" ><a href="orders"><i class="fa fa-book nav_icon"></i><span>Orders</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          </li>
 		          <li><a href="maps"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
@@ -263,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          </ul>
 		        </li>
 		        
-		        <li><a href="Payments"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
+		        <li><a href="payment"><i class="fa fa-bar-chart"></i><span>Payments</span></a></li>
 		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a href="inbox">Inbox</a></li>
